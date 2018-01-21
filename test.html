@@ -1,1 +1,43 @@
+<?php
+$labels = '"Pre-Submission","Concept","Preliminary","Final"';
+$stage = 3;
+$checks = 2;
+?><!DOCTYPE html>
+<html>
+	<head>
+		<title>My Test</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/plugins/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="stylesheet" href="/assets/css/milestones.css">
+		<style>
 
+		</style>
+	</head>
+	<body>
+		<br><br><br><br>
+		<div class="container">
+
+			<div class="milestones" ></div>
+
+		</div>
+
+		<script type="text/javascript" src="/assets/plugins/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="/assets/plugins/jquery/jquery-migrate.min.js"></script>
+		<script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/assets/js/milestones.js"></script>
+		<script>
+			$(function(){
+				$('.milestones').milestones({
+					stage: 4,
+					checks: 3,
+					checkclass: 'checks',
+					labels: ["Pre-Submission","Added","Concept","Another","Preliminary","Interject","Final"]
+				});
+			});
+		</script>
+	</body>
+</html>
