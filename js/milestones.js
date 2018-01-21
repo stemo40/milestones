@@ -25,6 +25,7 @@
 			/*--------------------------
 			Establish global variables
 			--------------------------*/
+      var id = $(this).attr('id');
 			var labels = ($(this).data('labels') != undefined ? $(this).data('labels') : settings.labels);
 			var stage = ($(this).data('stage') != undefined ? $(this).data('stage')-1 : settings.stage-1);
 			var checks = ($(this).data('checks') != undefined ? $(this).data('checks')-1 : settings.checks-1);
@@ -41,7 +42,7 @@
 			/*-----------------------------
 			Insert the Milestone components
 			------------------------------*/
-			$(this).html('<div class="progress"><div class="progress-bar" role="progressbar" style="width:'+len+'%"> </div></div><div class="ticks"></div><div class="labels"></div><div class="alt-label">Next Action: <span>'+labels[stage]+'</span></div>');
+			$(this).html('<div class="progress"><div class="progress-bar" role="progressbar" style="width:'+len+'%"> </div></div><div class="stage"></div><div class="labels"></div><div class="alt-label">Next Action: <span>'+labels[stage]+'</span></div>');
 
 			/*-----------------------------
 			Iterate to define the tickmarks
@@ -57,16 +58,16 @@
 					var cls = ' forward';
 				}
 				if (x == 0){
-					$(".ticks").append('<span class="tick first'+cls+'">'+icon+'</span>');
-					$(".labels").append('<label class="tick-label first"><span>'+labels[x]+'</span></label>');
+					$("#"+id+" .stage").append('<span class="tick first'+cls+'">'+icon+'</span>');
+					$("#"+id+" .labels").append('<label class="tick-label first"><span>'+labels[x]+'</span></label>');
 				}else if (x == div){
-					$(".ticks").append('<span class="tick last'+cls+'">'+icon+'</span>');
-					$(".labels").append('<label class="tick-label last"><span>'+labels[x]+'</span></label>');
+					$("#"+id+" .stage").append('<span class="tick last'+cls+'">'+icon+'</span>');
+					$("#"+id+" .labels").append('<label class="tick-label last"><span>'+labels[x]+'</span></label>');
 				}else{
 					var n = labels[x].length/5;
 					var llft = (per*x)-n;
-					$(".ticks").append('<span class="tick'+cls+'" style="left:'+lft+'%">'+icon+'</span>');
-					$(".labels").append('<label class="tick-label" style="left:'+llft+'%"><span>'+labels[x]+'</span></label>');
+					$("#"+id+" .stage").append('<span class="tick'+cls+'" style="left:'+lft+'%">'+icon+'</span>');
+					$("#"+id+" .labels").append('<label class="tick-label" style="left:'+llft+'%"><span>'+labels[x]+'</span></label>');
 				}
 			}
 		});
