@@ -25,7 +25,7 @@
 			/*--------------------------
 			Establish global variables
 			--------------------------*/
-            var id = $(this).attr('id');
+			var id = $(this).attr('id');
 			var labels = ($(this).data('labels') != undefined ? $(this).data('labels') : settings.labels);
 			var stage = ($(this).data('stage') != undefined ? $(this).data('stage')-1 : settings.stage-1);
 			var checks = ($(this).data('checks') != undefined ? $(this).data('checks')-1 : settings.checks-1);
