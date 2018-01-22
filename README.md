@@ -24,8 +24,9 @@ Milestones is dependant on three external libraries which are listed below:
  ```
 
 ### Load Required Libraries
-$ <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-$ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-$ <script type="text/javascript" src="js/milestones.js"></script>
-
+ ```
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/milestones.js"></script>
+```
 
