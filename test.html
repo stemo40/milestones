@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My Test</title>
+		<title>Milestones</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,12 @@
 	<body>
 		<br><br><br><br>
 		<div class="container">
+		<h1>Milestones</h1>
+		<br/><br/>
+			<div class="milestones" id="my1"></div>
+			<br><br><br><br>
 
-			<div class="milestones" ></div>
+			<div class="milestones" id="my2"></div>
 
 		</div>
 
@@ -25,11 +29,17 @@
 		<script type="text/javascript" src="js/milestones.js"></script>
 		<script>
 			$(function(){
-				$('.milestones').milestones({
+				$('#my1').milestones({
 					stage: 4,
 					checks: 3,
 					checkclass: 'checks',
 					labels: ["Pre-Submission","Added","Concept","Another","Preliminary","Interject","Final"]
+				});
+				$('#my2').milestones({
+					stage: 2,
+					checks: 1,
+					stageclass: 'doneclass',
+					labels: ["Pre-Submission","Concept","Preliminary","Final"]
 				});
 			});
 		</script>
