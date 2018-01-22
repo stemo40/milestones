@@ -36,7 +36,7 @@ Make sure you apply the *milestones* class and give the container an ID.
 <div class="milestones" id="ms1"></div>
 ```
 
-### instantiate the plugin
+### Instantiate the Plugin
 This will apply default values and display the milestones
 ```
 <script>
