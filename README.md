@@ -51,7 +51,7 @@ This will control the labels, the progress and the checkmarks
 ```
 <script>
     $(function(){
-        $('#my2').milestones({
+        $('#ms1').milestones({
             stage: 2,  // progress to the 2nd milestone
             checks: 1, // apply a checkmark to the 1st milestone
             checkclass: 'checks', // apply this class to the checkmarks
