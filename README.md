@@ -30,10 +30,18 @@ Milestones is dependant on three external libraries which are listed below:
  <script type="text/javascript" src="js/milestones.js"></script>
 ```
 
-#### Add a Container for the Milestones
+### Add a Container for the Milestones
+Make sure you apply the *milestones* class and give the container an ID.
 ```
 <div class="milestones" id="ms1"></div>
 ```
 
-Make sure you apply the *milestones* class and give it an ID.
+### instantiate the plugin
+```
+<script>
+$(function(){
+$('#ms1').milestones();
+});
+</script>
+```
 
