@@ -47,7 +47,7 @@ This will apply default values and display the milestones
 ```
 
 ### Add Options
-This will control the labels, the progress and the checkmarks
+This will control the labels, the progress and the checkmarks.
 ```
 <script>
     $(function(){
