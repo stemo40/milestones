@@ -14,11 +14,11 @@
 		Default settings
 		--------------------------*/
 		var settings = $.extend({
-			labels			  : ["Step1","Step2","Step3","Step4"],   // Array of labels for each milestone
-			stage				  : 2,								                   // Position of the progress bar
-			checks      	: 2,									                 // Number of checkmarks
-			checkclass  	: 'checkmark',							           // Class for the checkmark
-			stageclass  	: 'past',							                 // Class for the finished milestone
+			labels        : ["Step1","Step2","Step3","Step4"],  // Array of labels for each milestone
+			stage         : 2,                                  // Position of the progress bar
+			checks        : 2,                                  // Number of checkmarks
+			checkclass    : 'checkmark',                        // Class for the checkmark
+			stageclass    : 'past',                             // Class for the finished milestone
 		}, options );
 
 		return this.each( function() {
