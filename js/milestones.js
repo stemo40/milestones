@@ -18,7 +18,7 @@
 			stage         : 2,                                  // Position of the progress bar
 			checks        : 2,                                  // Number of checkmarks
 			checkclass    : 'checkmark',                        // Class for the checkmark
-			stageclass    : 'past',                             // Class for the finished milestone
+			stageclass    : 'past',                             // Class for the finished milestones
 		}, options );
 
 		return this.each( function() {
