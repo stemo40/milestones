@@ -15,10 +15,10 @@
 		--------------------------*/
 		var settings = $.extend({
 			labels        : ["Step1","Step2","Step3","Step4"],  // Array of labels for each milestone
-			stage         : 2,                                  // Position of the progress bar
+			position      : 2,                                  // Position of the progress bar
 			checks        : 2,                                  // Number of checkmarks
 			checkclass    : 'checkmark',                        // Class for the checkmark
-			stageclass    : 'past',                             // Class for the finished milestones
+			msclass       : 'past',                             // Class for the finished milestones
 		}, options );
 
 		return this.each( function() {
@@ -28,9 +28,10 @@
 			--------------------------*/
 			var id = $(this).attr('id');
 			var labels = ($(this).data('labels') != undefined ? $(this).data('labels') : settings.labels);
-			var stage = ($(this).data('stage') != undefined ? $(this).data('stage')-1 : settings.stage-1);
+			var position = ($(this).data('position') != undefined ? $(this).data('position')-1 : settings.position-1);
 			var checks = ($(this).data('checks') != undefined ? $(this).data('checks')-1 : settings.checks-1);
 			var checkclass = ($(this).data('checkclass') != undefined ? $(this).data('checkclass') : settings.checkclass);
+			var msclass = ($(this).data('msclass') != undefined ? $(this).data('msclass') : settings.msclass);
 
 			/*--------------------------
 			Set variables based on globals
@@ -54,7 +55,7 @@
 				var lft = (per*x)-.4;
 				if (x <= checks){
 					var icon = '<i class="fa fa-check '+checkclass+'"></i>';
-					var cls = ' past';
+					var cls = ' '+msclass;
 				}else{
 					var icon = '';
 					var cls = ' forward';
