@@ -24,7 +24,7 @@ Milestones is dependant on three external libraries which are listed below:
 * Font-Awesome
 
 Getting Started
----------------
+===============
 To begin, you need to ensure that the stylesheets and the javascript libraries are included in your html file.
 
 Required Stylesheets
