@@ -7,7 +7,7 @@
    :caption: Table of Contents
 
 	index
-  readme
+  README
 
 ===================================
 Welcome to Milestones Documentation
