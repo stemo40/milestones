@@ -1,1 +1,0 @@
-# Milestone jQuery Plugin
