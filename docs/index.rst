@@ -69,13 +69,13 @@ Make sure you apply the *milestones* class and give the container an ID::
 Instantiate the Plugin
 ======================
 
-This will apply default values and display the milestones.::
+This will apply default values and display the *milestones*.::
 
-<script>
-    $(function(){
-        $('#ms1').milestones();
-    });
-</script>
+	<script>
+	   $(function(){
+	       $('#ms1').milestones();
+	   });
+	</script>
 
 ===========
 Add Options
@@ -83,14 +83,14 @@ Add Options
 
 This will control the labels, the progress and the checkmarks.::
 
-<script>
-    $(function(){
-        $('#ms1').milestones({
-            stage: 2,  // progress to the 2nd milestone
-            checks: 1, // apply a checkmark to the 1st milestone
-            checkclass: 'checks', // apply this class to the checkmarks
-            stageclass: 'doneclass', // apply this class to the completed tickmarks
-            labels: ["Pre-Submission","Concept","Preliminary","Final"]  // array of labels
-        });
-    });
-</script>
+	<script>
+	  $(function(){
+	     $('#ms1').milestones({
+	         stage: 2,  // progress to the 2nd milestone
+	         checks: 1, // apply a checkmark to the 1st milestone
+	         checkclass: 'checks', // apply this class to the checkmarks
+	         stageclass: 'doneclass', // apply this class to the completed tickmarks
+	         labels: ["Pre-Submission","Concept","Preliminary","Final"]  // array of labels
+	     });
+	  });
+	</script>
