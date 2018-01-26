@@ -36,6 +36,7 @@ Getting Started
 
 To begin, you need to ensure that the stylesheets and the javascript libraries are included in your html file.
 
+====================
 Required Stylesheets
 ====================
 
@@ -46,6 +47,7 @@ Load the requred external Stylesheets::
  <link rel="stylesheet" href="css/milestones.css">
 
 
+==================
 Required Libraries
 ==================
 
@@ -55,3 +57,40 @@ Include the required javascript libraries::
  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <script type="text/javascript" src="js/milestones.js"></script>
 
+===============
+Add a Container 
+===============
+
+Make sure you apply the *milestones* class and give the container an ID::
+
+<div class="milestones" id="ms1"></div>
+
+======================
+Instantiate the Plugin
+======================
+
+This will apply default values and display the milestones.::
+
+<script>
+    $(function(){
+        $('#ms1').milestones();
+    });
+</script>
+
+===========
+Add Options
+===========
+
+This will control the labels, the progress and the checkmarks.::
+
+<script>
+    $(function(){
+        $('#ms1').milestones({
+            stage: 2,  // progress to the 2nd milestone
+            checks: 1, // apply a checkmark to the 1st milestone
+            checkclass: 'checks', // apply this class to the checkmarks
+            stageclass: 'doneclass', // apply this class to the completed tickmarks
+            labels: ["Pre-Submission","Concept","Preliminary","Final"]  // array of labels
+        });
+    });
+</script>
