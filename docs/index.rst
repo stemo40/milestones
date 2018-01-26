@@ -11,8 +11,7 @@ Milestones is a jQuery plugin that displays a timeline with milestones. The mile
 Online Demo
 -----------
 
-* `Demo`_.
-.. _Milestones Demo: https://stemo40.github.io/milestones/
+* `Demo <https://stemo40.github.io/milestones/>`_
 
 Requirements
 ------------
