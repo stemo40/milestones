@@ -25,6 +25,7 @@ Milestones is dependant on three external libraries which are listed below:
 
 Getting Started
 ---------------
+
 To begin, you need to ensure that the stylesheets and the javascript libraries are included in your html file.
 
 Required Stylesheets
@@ -39,6 +40,7 @@ Load the requred external Stylesheets::
 
 Required Libraries
 ~~~~~~~~~~~~~~~~~~
+
 Include the required javascript libraries::
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
