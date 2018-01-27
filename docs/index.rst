@@ -24,4 +24,4 @@ Click this link to take you to a demo page that displays the plugin in real time
    :caption: Table of Contents
 
    master
-   l
+   license
