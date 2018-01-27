@@ -57,7 +57,9 @@ Make sure you apply the *milestones* class and give the container an ID::
 Instantiate the Plugin
 ======================
 
-This will apply default values and display the *milestones*.::
+This will apply default values and display the *milestones*.
+
+.. code-block:: javascript
 
 	<script>
 	   $(function(){
