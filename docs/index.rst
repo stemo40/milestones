@@ -17,9 +17,7 @@ Click this link to take you to a demo page that displays the plugin in real time
 
 * `Demo <https://stemo40.github.io/milestones/>`_
 
-* :ref:`user-docs`
 
-.. _user-docs:
 
 .. toctree::
    :maxdepth: 2
