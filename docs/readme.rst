@@ -21,7 +21,7 @@
 
 An example nginx configuration for pip would look like:
 
-.. code-block:: javascript
+.. code-block:: nginx 
    :emphasize-lines: 9
 
     server {
