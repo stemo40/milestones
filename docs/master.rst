@@ -59,7 +59,7 @@ Instantiate the Plugin
 
 This will apply default values and display the *milestones*.
 
-.. code-block:: html
+.. code-block:: livescript
 
 	<script>
 	   $(function(){
