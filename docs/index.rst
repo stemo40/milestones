@@ -18,7 +18,7 @@ Indices and tables
    :maxdepth: 2
    :caption: Contents:
 
-		index
-		new_file
-		test_file
-		readme
+   index
+   new_file
+   test_file
+   readme
