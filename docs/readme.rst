@@ -16,7 +16,7 @@
 .. TIP:: If you are reading this as HTML, please read
    `<cheatsheet.txt>`_ instead to see the input syntax examples!
 
-.. DANGER:: If you are reading this as HTML, please read
+.. ERROR:: If you are reading this as HTML, please read
    `<cheatsheet.txt>`_ instead to see the input syntax examples!
 
 An example nginx configuration for pip would look like:
