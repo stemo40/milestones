@@ -16,6 +16,9 @@
 .. TIP:: If you are reading this as HTML, please read
    `<cheatsheet.txt>`_ instead to see the input syntax examples!
 
+.. IMPORTANT:: If you are reading this as HTML, please read
+   `<cheatsheet.txt>`_ instead to see the input syntax examples!
+
 Section Structure
 =================
 Section titles are underlined or overlined & underlined.
