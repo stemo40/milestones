@@ -19,6 +19,25 @@
 .. IMPORTANT:: If you are reading this as HTML, please read
    `<cheatsheet.txt>`_ instead to see the input syntax examples!
 
+An example nginx configuration for pip would look like:
+
+.. code-block:: javascript
+   :emphasize-lines: 9
+
+    server {
+        server_name docs.pip-installer.org;
+        location / {
+            proxy_pass https://pip.readthedocs.io:443;
+            proxy_set_header Host $http_host;
+            proxy_set_header X-Forwarded-Proto https;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Scheme $scheme;
+            proxy_set_header X-RTD-SLUG pip;
+            proxy_connect_timeout 10s;
+            proxy_read_timeout 20s;
+        }
+    }
+
 Section Structure
 =================
 Section titles are underlined or overlined & underlined.
