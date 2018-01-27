@@ -9,7 +9,7 @@ To learn more about this plugin, check out our documentation.
 
 + <a href="http://milestones.readthedocs.io/en/latest/master.html">Documentation</a>
 
-## License Information
+# License Information
 
 As a work of the United States Government, this project is in the
 public domain within the United States.
