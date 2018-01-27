@@ -78,11 +78,11 @@ This will control the labels, the progress and the checkmarks.
 	<script>
 	  $(function(){
 	     $('#ms1').milestones({
-	         stage: 2,  // progress to the 2nd milestone
+	         position: 2,  // progress to the 2nd milestone
 	         checks: 1, // apply a checkmark to the 1st milestone
-	         checkclass: 'checks', // apply this class to the checkmarks
-	         stageclass: 'doneclass', // apply this class to the completed tickmarks
-	         labels: ["Pre-Submission","Concept","Preliminary","Final"]  // array of labels
+	         checkclass: 'ms-checkmark', // apply this class to the checkmarks
+	         msclass: 'doneclass', // apply this class to the completed tickmarks
+	         labels: ["Stage 1","Stage 2","Stage 3","Stage 4"]  // array of labels
 	     });
 	  });
 	</script>
