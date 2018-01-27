@@ -100,6 +100,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # documentation.
 #
 html_theme_options = {
+    'navigation_depth': 4,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
 }
