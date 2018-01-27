@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
+==========
 Background
 ==========
 
@@ -19,6 +19,7 @@ Milestones is dependant on three external libraries which are listed below:
 * jQuery
 * Font-Awesome
 
+===============
 Getting Started
 ===============
 
@@ -52,7 +53,6 @@ Add a Container
 Make sure you apply the *milestones* class and give the container an ID::
 
 <div class="milestones" id="ms1"></div>
-
 
 Instantiate the Plugin
 ======================
