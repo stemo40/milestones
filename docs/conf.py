@@ -102,7 +102,6 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
