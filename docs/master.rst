@@ -70,7 +70,7 @@ Add Options
 ===========
 
 This will control the labels, the progress and the checkmarks.
-.. highlight:: javascript
+.. code-block:: javascript
 	<script>
 	  $(function(){
 	     $('#ms1').milestones({
