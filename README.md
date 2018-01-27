@@ -3,61 +3,43 @@ Milestones is a jQuery plugin that displays a timeline with milestones. The mile
 
 ![Screenshot](docs/img/example.png)
 
-## Online Demo
+## Documentation
 
-+ <a href="https://stemo40.github.io/milestones/" target="_blank">Demo</a>
+To learn more about this plugin, check out our documentation.
 
-## Requirements
-Milestones is dependant on three external libraries which are listed below:
++ <a href="http://milestones.readthedocs.io/en/latest/master.html">Documentation</a>
 
-+ Bootstrap
-+ jQuery
-+ Font-Awesome
+## License Information
 
-## Getting Started
+As a work of the United States Government, this project is in the
+public domain within the United States.
 
-### Load Required Stylesheets
-```css
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="css/milestones.css">
- ```
+Additionally, we waive copyright and related rights in the work
+worldwide through the CC0 1.0 Universal public domain dedication.
 
-### Load Required Libraries
- ```javascript
- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <script type="text/javascript" src="js/milestones.js"></script>
-```
+## CC0 1.0 Universal Summary
 
-### Add a Container for the Milestones
-Make sure you apply the *milestones* class and give the container an ID.
-```html
-<div class="milestones" id="ms1"></div>
-```
+This is a human-readable summary of the
+[Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
-### Instantiate the Plugin
-This will apply default values and display the milestones.
-```javascript
-<script>
-    $(function(){
-        $('#ms1').milestones();
-    });
-</script>
-```
- 
-### Add Options
-This will control the labels, the progress and the checkmarks.
-```javascript
-<script>
-    $(function(){
-        $('#ms1').milestones({
-            stage: 2,  // progress to the 2nd milestone
-            checks: 1, // apply a checkmark to the 1st milestone
-            checkclass: 'checks', // apply this class to the checkmarks
-            stageclass: 'doneclass', // apply this class to the completed tickmarks
-            labels: ["Pre-Submission","Concept","Preliminary","Final"]  // array of labels
-        });
-    });
-</script>
-```
+### No Copyright
+
+The person who associated a work with this deed has dedicated the work to
+the public domain by waiving all of his or her rights to the work worldwide
+under copyright law, including all related and neighboring rights, to the
+extent allowed by law.
+
+You can copy, modify, distribute and perform the work, even for commercial
+purposes, all without asking permission.
+
+### Other Information
+
+In no way are the patent or trademark rights of any person affected by CC0,
+nor are the rights that other persons may have in the work or in how the
+work is used, such as publicity or privacy rights.
+
+Unless expressly stated otherwise, the person who associated a work with
+this deed makes no warranties about the work, and disclaims liability for
+all uses of the work, to the fullest extent permitted by applicable law.
+When using or citing the work, you should not imply endorsement by the
+author or the affirmer.
