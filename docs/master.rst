@@ -5,7 +5,7 @@
 
 ==========
 Background
-==========
+========== 
 
 Before we get to the code examples and how to include it in your html page, there's a couple of things to highlight first.
 
@@ -59,7 +59,7 @@ Instantiate the Plugin
 
 This will apply default values and display the *milestones*.
 
-.. code-block:: eg
+.. code-block:: dart 
 
 	<script>
 	   $(function(){
