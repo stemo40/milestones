@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'master'
 
 # General information about the project.
-project = 'milestones'
+project = 'Milestones'
 copyright = '2018, Steve Morgan'
 author = 'Steve Morgan'
 
@@ -101,7 +101,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #
 html_theme_options = {
     'display_version': True,
-    'prev_next_buttons_location': bottom,
+    'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
 }
 
