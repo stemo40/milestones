@@ -15,7 +15,7 @@ Online Demo
 
 Click this link to take you to a demo page that displays the plugin in real time. Be sure to view the source to see how to set it up and options available.
 
-* `Demo <https://stemo40.github.io/milestones/>`_
+* `Demo <https://stemo40.github.io/milestones/ target=_blank>`_
 
 
 
