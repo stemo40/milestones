@@ -73,7 +73,7 @@ Add Options
 
 This will control the labels, the progress and the checkmarks.
 
-.. code-block:: python
+.. code-block:: coffee
 
 	<script>
 	  $(function(){
