@@ -113,8 +113,10 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
     '**': [
-        'relations.html',  # needs 'show_related': True theme option to display
-        'searchbox.html',
+        'index.html',  
+        'reademe.html',
+        'test_file.html',
+        'new_file.html',
     ]
 }
 
