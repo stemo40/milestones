@@ -6,6 +6,16 @@
 Welcome to Milestones's documentation!
 ======================================
 
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+.. _genindex:
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -14,10 +24,3 @@ Welcome to Milestones's documentation!
 		new_file
 		test_file
 		readme
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
