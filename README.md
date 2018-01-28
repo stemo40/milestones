@@ -7,7 +7,7 @@ Milestones is a jQuery plugin that displays a timeline with milestones. The mile
 
 To learn more about this plugin, check out our documentation.
 
-+ <a href="http://milestones.readthedocs.io/en/latest/master.html">Documentation</a>
++ <a href="http://milestones.readthedocs.io/master.html">Documentation</a>
 
 # License Information
 
