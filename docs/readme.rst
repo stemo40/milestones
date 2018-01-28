@@ -6,13 +6,9 @@
 H1 document title
 #################
 
-this is regular text
-
 *****************
 H2 Sample
 *****************
-
-Sample content
 
 Sample H3
 ==========
