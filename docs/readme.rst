@@ -7,6 +7,31 @@
 :Revision: $Revision: 7612 $
 :Description: This is a "docinfo block", or bibliographic field list
 
+#################
+H1 document title
+#################
+
+this is regular text
+
+*****************
+H2 Sample
+*****************
+
+Sample content
+
+Sample H3
+==========
+
+Sample H4
+---------
+
+Sample H5
+^^^^^^^^^^
+
+Sample H6
+"""""""""
+
+
 .. NOTE:: If you are reading this as HTML, please read
    `<cheatsheet.txt>`_ instead to see the input syntax examples!
 
