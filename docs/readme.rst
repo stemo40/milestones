@@ -29,7 +29,7 @@ Sample H5
 ^^^^^^^^^^
 
 Sample H6
-"""""""""
+~~~~~~~~~
 
 
 .. NOTE:: If you are reading this as HTML, please read
