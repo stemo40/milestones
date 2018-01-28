@@ -1,3 +1,7 @@
+####################################################
+ The reStructuredText_ Cheat Sheet: Syntax Reminders
+####################################################
+
 #################
 H1 document title
 #################
@@ -22,9 +26,7 @@ Sample H5
 Sample H6
 """"""""""
 
-####################################################
- The reStructuredText_ Cheat Sheet: Syntax Reminders
-####################################################
+
 :Info: See <http://docutils.sf.net/rst.html> for introductory docs.
 :Author: David Goodger <goodger@python.org>
 :Date: $Date: 2013-02-20 01:10:53 +0000 (Wed, 20 Feb 2013) $
