@@ -134,11 +134,11 @@ htmlhelp_basename = 'milestonesdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+     'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+     'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -153,7 +153,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'milestones.tex', 'milestones Documentation',
+    (master_doc, 'milestones.tex', 'Milestones Documentation',
      'Steve Morgan', 'manual'),
 ]
 
