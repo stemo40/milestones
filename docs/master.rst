@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-==========
+#############
 Background
-========== 
+############# 
 
 Before we get to the code examples and how to include it in your html page, there's a couple of things to highlight first.
 
