@@ -118,9 +118,7 @@ html_theme_options = {
 html_sidebars = {
     '**': [
         'index.html',  
-        'reademe.html',
-        'test_file.html',
-        'new_file.html',
+        'license.html',
     ]
 }
 
