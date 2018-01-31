@@ -182,7 +182,7 @@ texinfo_documents = [
 
 
 # -- Options for Epub output ----------------------------------------------
-
+epub_basename = 'milestonesepub'
 # Bibliographic Dublin Core info.
 epub_title = project
 epub_author = author
