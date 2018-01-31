@@ -156,7 +156,7 @@ latex_documents = [
     (master_doc, 'milestones.tex', 'Milestones Documentation',
      'Steve Morgan', 'manual'),
 ]
-
+latex_logo = 'img/ncpc-logo-png'
 
 # -- Options for manual page output ---------------------------------------
 
