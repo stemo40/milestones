@@ -23,6 +23,7 @@ Click this link to take you to a demo page that displays the plugin in real time
 
 .. toctree::
    :maxdepth: 4 
+   :numbered:
    :caption: Table of Contents
 
    master
