@@ -17,6 +17,8 @@
 			labels        : ["Step1","Step2","Step3","Step4"],  // Array of labels for each milestone
 			position      : 2,                                  // Position of the progress bar
 			checks        : 2,                                  // Number of checkmarks
+			missed        : [],                                 // Number of checkmarks that missed the deadline
+			missedclass   : 'ms-missed',                        // Class for the missed checkmarks
 			checkclass    : 'ms-checkmark',                     // Class for the checkmark
 			msclass       : 'ms-tick-checked',                  // Class for the finished milestones
 		}, options );
@@ -31,6 +33,8 @@
 			var position = ($(this).data('position') != undefined ? $(this).data('position')-1 : settings.position-1);
 			var checks = ($(this).data('checks') != undefined ? $(this).data('checks')-1 : settings.checks-1);
 			var checkclass = ($(this).data('checkclass') != undefined ? $(this).data('checkclass') : settings.checkclass);
+			var missed = ($(this).data('missed') != undefined ? $(this).data('missed') : settings.missed);
+			var missedclass = ($(this).data('missedclass') != undefined ? $(this).data('missedclass') : settings.missedclass);
 			var msclass = ($(this).data('msclass') != undefined ? $(this).data('msclass') : settings.msclass);
 
 			/*--------------------------
@@ -54,8 +58,15 @@
 			for (x = 0;x <= div;x++){
 				var lft = (per*x)-.4;
 				if (x <= checks){
-					var icon = '<i class="fa fa-check '+checkclass+'"></i>';
-					var cls = ' '+msclass;
+				var z = x+1;
+				console.log('x: '+x+' | z: '+z);
+				if (jQuery.inArray(z, missed)!='-1'){ 
+									var icon = '<i class="fa fa-check '+missedclass+'"></i>';
+									var cls = ' '+msclass;
+				}else{
+									var icon = '<i class="fa fa-check '+checkclass+'"></i>';
+									var cls = ' '+msclass;
+				}
 				}else{
 					var icon = '';
 					var cls = ' ms-tick-empty';
