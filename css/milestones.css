@@ -57,6 +57,9 @@
 .checks{
 	color:#333;
 }
+.ms-missed{
+	color:#C60000;
+}
 .alt-label span{
 	text-transform:uppercase;
 	color:black;
